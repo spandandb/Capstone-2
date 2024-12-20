@@ -1,0 +1,353 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#landing-page {
+  background-color: #281549;
+}
+
+#about-me-page {
+  background-color: #231141;
+}
+
+#projects {
+  background-color: #281549;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+}
+
+.linear-gradient {
+  background: #832fff;
+  background: linear-gradient(270deg, #fe4ff2, #832fff);
+}
+
+.linear-gradient-reverse {
+  background: #832fff;
+  background: linear-gradient(270deg, #832fff, #fe4ff2);
+}
+
+#top-spacing {
+  height: 15px;
+}
+
+#bottom-spacing {
+  height: 15px;
+}
+
+.logo-subject {
+  display: flex;
+}
+
+.brand-logo {
+  fill: #fe4ff2;
+}
+
+.svg-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  margin-left: 100px;
+}
+
+.logo-subject {
+  margin-top: 20px;
+}
+
+.hello-world {
+  margin-left: 10px;
+  font-family: "Trend Sans One Regular";
+  font-size: 0.8rem;
+}
+
+.my-intro > h1 {
+  font-family: "Trend Sans W00 Five";
+  font-size: 5.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-intro > h2 {
+  font-family: "Trend Sans W00 Five";
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.my-intro > h3 {
+  font-family: "Trend Sans One Regular";
+  margin-top: 0;
+  color: #ff4ff3;
+}
+
+h3 > span {
+  text-decoration: underline;
+}
+
+.container-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 100px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container > img {
+  height: 100%;
+  width: 80%;
+}
+
+.neon-text {
+  color: #fff;
+  text-shadow: 0 0 1px #fe4ff2, 0 0 7px white, 0 0 10px white;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.education-current-job-role {
+  font-family: "Proxima Nova Condensed";
+  font-weight: 400px;
+  margin-left: 100px;
+}
+
+.know-more {
+  background: #832fff;
+  background: linear-gradient(270deg, #fe4ff2, #832fff);
+  height: 40px;
+  width: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-family: "Proxima Nova Condensed";
+  font-weight: 600;
+}
+
+.more-works {
+  background: #832fff;
+  background: linear-gradient(270deg, #fe4ff2, #832fff);
+  border-radius: 30px;
+  font-family: "Proxima Nova Condensed";
+  width: 50%;
+  /* padding: 5px; */
+  font-weight: 600;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  margin-top: 0;
+}
+
+.about-me-div {
+  padding-top: 100px;
+}
+
+.profile-img > img {
+  border-radius: 50%;
+  height: 250px;
+  border: 5px solid #ff4ff3;
+}
+
+.container-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.profile > h1,
+.profile > h2 {
+  font-family: "Trend Sans W00 Five";
+}
+
+.profile {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile > h1 {
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.profile > h2 {
+  margin-top: 0;
+  font-size: 2.25rem;
+}
+
+.profile-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.job-items li {
+  list-style: none;
+}
+
+.job-items > ul {
+  padding: 0;
+}
+
+.job-items > h3 {
+  color: #ff4ff3;
+  font-weight: 900;
+}
+
+.job-items {
+  margin-bottom: 2.5rem;
+}
+
+#projects > h2 {
+  margin-top: 0;
+  margin-left: 100px;
+  font-family: "Trend Sans W00 Five";
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+
+.project-items {
+  margin-left: 100px;
+}
+
+.project-subitems > div > img {
+  height: 350px;
+  filter: blur(2px);
+}
+
+.project-subitems > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-subitems > div > h3 {
+  font-family: "Trend Sans One Regular";
+  padding: 5px;
+  background-color: #4d4d4d80;
+  border-width: 100%;
+}
+
+.project-subitems > div > a {
+  font-family: "Proxima Nova Condensed";
+  font-weight: 600;
+  background: #832fff;
+  background: linear-gradient(270deg, #fe4ff2, #832fff);
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  width: 15%;
+  text-align: center;
+}
+
+.project-subitems {
+  display: grid;
+  grid-template: 100% / 100%;
+}
+
+.project-subitems > div > img {
+  grid-column: 1;
+  grid-row: 1;
+  border: 5px solid #ff4ff3;
+  width: 70%;
+}
+
+.project-subitems > div {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+}
+
+.project-subitems-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.project-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 750px) {
+  .image-container {
+    display: none;
+  }
+
+  .text-container {
+    margin-left: 50px;
+  }
+
+  .my-intro > h1 {
+    font-size: 3rem;
+  }
+
+  .my-intro > h2 {
+    font-size: 2rem;
+  }
+
+  .logo-subject {
+    margin: 20px 0px;
+  }
+
+  .my-intro {
+    margin-bottom: 80px;
+  }
+
+  .container-two {
+    grid-template-columns: 1fr;
+  }
+
+  .education-current-job-role {
+    margin-left: 50px;
+  }
+
+  .profile {
+    margin-left: 50px;
+  }
+
+  .more-works {
+    width: 75%;
+    font-size: 0.75rem;
+  }
+
+  .project-items {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project-subitems {
+    margin-top: 30px;
+    width: 80%;
+  }
+
+  .project-subitems > div > img {
+    width: 100%;
+  }
+
+  .project-subitems > div > a {
+    width: 25%;
+  }
+
+  .know-more {
+    width: 90%;
+  }
+}
